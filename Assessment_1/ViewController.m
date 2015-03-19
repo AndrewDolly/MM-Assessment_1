@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "OutputViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -18,10 +19,8 @@
 //Couldn't get 'Answer' to change so I used a label for time being
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 @property (weak, nonatomic) IBOutlet UIButton *outputButton;
-@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 //unclear if this should be UINav or some kind of textField:
-@property (weak, nonatomic) IBOutlet UINavigationItem *addressBar;
-@property (weak, nonatomic) IBOutlet UIWebView *webView;
+
 
 @end
 
@@ -31,10 +30,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.addressBar.title = @"Test title";
-// not working, stuck on why:
-//    [self goToURLString:@"http://www.mobilemakers.co"];
-//    self.webView.delegate = self;
+    [self.addressBar.title = @"Test title"];
 
 }
 
@@ -55,17 +51,6 @@
         }
     }
 
-
-
-
--(void)webViewDidStartLoad:(UIWebView *)webView
-    {
-    [self.spinner startAnimating];
-    }
--(void)webViewDidFinishLoad:(UIWebView *)webView
-    {
-    [self.spinner stopAnimating];
-    }
 
 
 //unsure if you need this part but I believe that the title of the new page should equal the title of the resultLabel

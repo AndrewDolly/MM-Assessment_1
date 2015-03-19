@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF7A8BA11ABA98A9007EA05C /* OutputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7A8BA01ABA98A9007EA05C /* OutputViewController.m */; };
 		FFB7A0861ABA30840026FD12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB7A0851ABA30840026FD12 /* main.m */; };
 		FFB7A0891ABA30840026FD12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB7A0881ABA30840026FD12 /* AppDelegate.m */; };
 		FFB7A08C1ABA30840026FD12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB7A08B1ABA30840026FD12 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF7A8B9F1ABA98A9007EA05C /* OutputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputViewController.h; sourceTree = "<group>"; };
+		FF7A8BA01ABA98A9007EA05C /* OutputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutputViewController.m; sourceTree = "<group>"; };
 		FFB7A0801ABA30840026FD12 /* Assessment_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assessment_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB7A0841ABA30840026FD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFB7A0851ABA30840026FD12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				FFB7A08A1ABA30840026FD12 /* ViewController.h */,
 				FFB7A08B1ABA30840026FD12 /* ViewController.m */,
 				FFB7A08D1ABA30840026FD12 /* Main.storyboard */,
+				FF7A8B9F1ABA98A9007EA05C /* OutputViewController.h */,
+				FF7A8BA01ABA98A9007EA05C /* OutputViewController.m */,
 				FFB7A0901ABA30840026FD12 /* Images.xcassets */,
 				FFB7A0921ABA30840026FD12 /* LaunchScreen.xib */,
 				FFB7A0831ABA30840026FD12 /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFB7A08C1ABA30840026FD12 /* ViewController.m in Sources */,
+				FF7A8BA11ABA98A9007EA05C /* OutputViewController.m in Sources */,
 				FFB7A0891ABA30840026FD12 /* AppDelegate.m in Sources */,
 				FFB7A0861ABA30840026FD12 /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				FFB7A0A51ABA30840026FD12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFB7A0A61ABA30840026FD12 /* Build configuration list for PBXNativeTarget "Assessment_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				FFB7A0A81ABA30840026FD12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
